@@ -1,27 +1,42 @@
-# Store
+# Remaster Store Playstation
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
-## Development server
+## Projeto desafio
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este projeto é um desafio de projeto do bootcamp Becas Santander na parte de desenvolvimento Web.
 
-## Code scaffolding
+A proposta inicial é bem simples, a criação da tela inicial da store da playstation.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Melhorias
 
-## Build
+Dar um UP nunca é demais, então fiz algumas melhorias no código, inclui um dinamismo nos quadros, com a inclusão de botões que direcionam o usuário até uma tela com mais sobre os jogos.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Os dados dos jogos agora são consumidos de um arquivo json, simulando um consumo externo.
 
-## Running unit tests
+Ao clicar no botão "SEE MORE", você é direcionado para tela de descrição do jogo, onde terá algumas informações sobre o mesmo, tudo de forma dinâmica.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Futuras implementações
 
-## Running end-to-end tests
+Já está melhor que antes, mas ainda podemelhorar muito.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+O que pode ser melhorado:
 
-## Further help
++ Inclusão de código para consumo de API externa.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
++ Melhorias semanticas na parte HTML e CSS.
+
++ Refatoração do código typeScript tornando o sistema mais rápido e robusto.
+
++ Criação de teste unitários para qualificação dos componentes.
+
++ Inclusão do carrinho de compras para abertura de compras.
+
++ Integração da parte de compras com banco.
+
++ Integração do site com banco de dados local e clould.
+
+
+## Agradecimentos
+
+Gostaria de agradecer a DIO e a iniciativa Becas do Santander por está oportunidade de desenvolver minhas habilidades em desenvolvimento web e possibilitar novos desafios para assim continuar crescendo. 
