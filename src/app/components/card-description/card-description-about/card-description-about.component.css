@@ -1,0 +1,40 @@
+#cardDescription__about{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  background: black;
+  padding-top: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#cardDescription_about-container{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+
+}
+
+#cardDescription__about-title{
+  display: flex;
+  color: #fff;
+  font-size: 3em;
+  width: 40%;
+}
+
+#cardDescrition__about-p {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 50%;
+  color: #fff;
+  font-size: 2em;
+}
+
+
+

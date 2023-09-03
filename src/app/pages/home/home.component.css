@@ -1,0 +1,36 @@
+
+.home__container {
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+
+}
+
+.home__container-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  display: block;
+  padding: 1em 0em;
+  background-color: black;
+  color: #fff;
+  border-radius: 0px 0px 10px 10px;
+}
+
+button:hover {
+  color: rgba(240, 14, 14, 0.955);
+  transition: transform 0.8s;
+  background-color: rgb(41, 40, 40);
+}
+
+button > p:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
